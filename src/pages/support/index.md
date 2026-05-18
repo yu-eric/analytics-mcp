@@ -1,7 +1,6 @@
 ---
 title: Analytics MCP servers support
 description: Learn where to ask questions, report bugs, make feature requests, and spark discussions.
-layout: none
 ---
 
 # Analytics MCP servers support

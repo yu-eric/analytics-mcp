@@ -1,7 +1,6 @@
 ---
 title: Frequently asked questions
 description: Answers to common questions about the Analytics MCP servers.
-layout: none
 ---
 
 # Frequently asked questions

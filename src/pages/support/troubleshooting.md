@@ -1,7 +1,6 @@
 ---
 title: Troubleshooting
 description: Solutions to common issues encountered when setting up or using the Analytics MCP servers.
-layout: none
 ---
 
 # Troubleshooting
