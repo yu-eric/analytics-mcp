@@ -4,8 +4,6 @@ description: Answers to common questions about the Analytics MCP servers.
 layout: none
 ---
 
-<Superhero slots="heading,text" background="white" textColor="black" />
-
 # Frequently asked questions
 
 Common questions about setting up and using the Analytics MCP servers.

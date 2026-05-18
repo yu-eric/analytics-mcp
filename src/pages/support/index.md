@@ -4,8 +4,6 @@ description: Learn where to ask questions, report bugs, make feature requests, a
 layout: none
 ---
 
-<Superhero slots="heading,text" background="white" textColor="black"/>
-
 # Analytics MCP servers support
 
 Learn where to ask questions, report bugs, and make feature requests.

@@ -4,8 +4,6 @@ description: Solutions to common issues encountered when setting up or using the
 layout: none
 ---
 
-<Superhero slots="heading,text" background="white" textColor="black"/>
-
 # Troubleshooting
 
 Solutions to common issues encountered when setting up or using the Analytics MCP servers.
