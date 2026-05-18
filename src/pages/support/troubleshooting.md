@@ -1,6 +1,7 @@
 ---
 title: Troubleshooting
 description: Solutions to common issues encountered when setting up or using the Analytics MCP servers.
+layout: none
 ---
 
 <Superhero slots="heading,text" background="white" textColor="black"/>

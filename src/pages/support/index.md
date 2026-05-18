@@ -1,6 +1,7 @@
 ---
 title: Analytics MCP servers support
-description: Learn where to ask questions, report bugs, make feature requests, and spark discussions. 
+description: Learn where to ask questions, report bugs, make feature requests, and spark discussions.
+layout: none
 ---
 
 <Superhero slots="heading,text" background="white" textColor="black"/>

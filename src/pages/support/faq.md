@@ -1,6 +1,7 @@
 ---
 title: Frequently asked questions
 description: Answers to common questions about the Analytics MCP servers.
+layout: none
 ---
 
 <Superhero slots="heading,text" background="white" textColor="black" />
