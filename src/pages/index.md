@@ -3,7 +3,7 @@ title: Analytics MCP servers
 description: Overview of available MCP servers for Adobe Analytics and Customer Journey Analytics.
 ---
 
-<HeroSimple slots="image, heading, text, buttons" background="rgb(37, 37, 37)"/>
+<Superhero slots="image, heading, text, buttons" background="rgb(37, 37, 37)"/>
 
 ![Hero image](assets/platform-hero.png)
 
