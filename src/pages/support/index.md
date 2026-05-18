@@ -11,7 +11,7 @@ Learn where to ask questions, report bugs, and make feature requests.
 
 <DiscoverBlock slots="image, heading, link, text" width="25%"/>
 
-![Adobe CX Enterprise](./assets/experience_cloud.svg)
+![Adobe CX Enterprise](../assets/experience_cloud.svg)
 
 ### Direct support
 
@@ -21,19 +21,19 @@ Send an email to Adobe's MCP support team directly with questions, issues, or fe
 
 <DiscoverBlock slots="link, text" width="25%"/>
 
-[Troubleshooting](support/troubleshooting.md)
+[Troubleshooting](troubleshooting.md)
 
 Solutions to common issues encountered when setting up or using the Analytics MCP servers.
 
 <DiscoverBlock slots="link, text" width="25%"/>
 
-[FAQ](support/faq.md)
+[FAQ](faq.md)
 
 Answers to common questions about the Analytics MCP servers.
 
 <DiscoverBlock slots="image, heading, link, text" width="25%"/>
 
-![GitHub](./assets/github.png)
+![GitHub](../assets/github.png)
 
 ### GitHub
 
@@ -55,7 +55,7 @@ View open pull requests for the documentation repository.
 
 <DiscoverBlock slots="image, heading, link, text" width="25%"/>
 
-![Slack](./assets/slack.png)
+![Slack](../assets/slack.png)
 
 ### Slack
 

@@ -6,19 +6,18 @@
   - MCP servers
     - [Adobe Analytics](aa/index.md)
     - [Customer Journey Analytics](cja/index.md)
-  - [Support](support.md)
+  - [Support](support/index.md)
 
 - subPages:
   - [Getting Started](guides/index.md)
     - [Connect to ChatGPT](guides/chatgpt.md)
     - [Connect to Claude](guides/claude.md)
     - [Connect to Cursor](guides/cursor.md)
-    - [Connect to Gemini](guides/gemini.md)
     - [Use OAuth to connect](guides/oauth.md)
   - [Adobe Analytics](aa/index.md)
     - [Tool reference](aa/reference.md)
   - [Customer Journey Analytics](cja/index.md)
     - [Tool reference](cja/reference.md)
-  - [Support](support.md)
+  - [Support](support/index.md)
     - [Troubleshooting](support/troubleshooting.md)
     - [FAQ](support/faq.md)

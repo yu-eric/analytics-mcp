@@ -57,7 +57,11 @@ Configure a `mcp.json` file in the Cursor IDE.
 
 CLI-only support; guide forthcoming.
 
-* [Setup guide](gemini.md)
+![Copilot icon](../assets/Microsoft_Copilot_Icon.svg)
+
+### Copilot
+
+Not yet available. Support is planned.
 
 ![OAuth icon](../assets/Oauth_logo.svg)
 
