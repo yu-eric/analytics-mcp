@@ -25,7 +25,7 @@ Use the following URLs when configuring your MCP client:
 
 Each guide walks through the full setup for a specific client:
 
-<Product-Card slots="icon, heading, text, buttons" repeat="5" />
+<Product-Card slots="icon, heading, text, buttons" />
 
 ![ChatGPT icon](../assets/OpenAI-black-monoblossom.svg)
 
@@ -35,6 +35,8 @@ Connect through Settings > Apps. Requires a Plus or Pro subscription.
 
 * [Setup guide](chatgpt.md)
 
+<Product-Card slots="icon, heading, text, buttons" />
+
 ![Claude icon](../assets/Claude_AI_symbol.svg)
 
 ### Claude
@@ -42,6 +44,8 @@ Connect through Settings > Apps. Requires a Plus or Pro subscription.
 Connect through the Connectors menu in the Claude web app.
 
 * [Setup guide](claude.md)
+
+<Product-Card slots="icon, heading, text, buttons" />
 
 ![Cursor icon](../assets/CUBE_25D.svg)
 
@@ -51,17 +55,23 @@ Configure a `mcp.json` file in the Cursor IDE.
 
 * [Setup guide](cursor.md)
 
+<Product-Card slots="icon, heading, text" />
+
 ![Gemini icon](../assets/Google_Gemini_icon.svg)
 
 ### Gemini
 
 CLI-only support; guide forthcoming.
 
+<Product-Card slots="icon, heading, text" />
+
 ![Copilot icon](../assets/Microsoft_Copilot_Icon.svg)
 
 ### Copilot
 
 Not yet available. Support is planned.
+
+<Product-Card slots="icon, heading, text, buttons" />
 
 ![OAuth icon](../assets/Oauth_logo.svg)
 
