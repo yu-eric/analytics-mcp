@@ -27,7 +27,7 @@ The MCP servers use OAuth DCR, which is handled automatically by supported LLM c
 
 ### How do I switch between IMS orgs?
 
-Log out of [experience.adobe.com](https://experience.adobe.com), disconnect the MCP connector in your client, then reconnect. You are prompted to choose your org during reconnection.
+Log out of [CX Enterprise](https://experience.adobe.com), disconnect the MCP connector in your client, then reconnect. You are prompted to choose your org during reconnection.
 
 <AccordionItem slots="heading, text"/>
 
@@ -59,7 +59,7 @@ Not currently. The Analytics MCP servers are focused on reporting and analysis u
 
 <AccordionItem slots="heading, text, text"/>
 
-### Are there any limitations to runReport compared to the reporting API?
+### Are there any limitations to `runReport` compared to the reporting API?
 
 The `runReport` MCP tool has mostly comparable feature parity with reporting API capabilities.
 
@@ -73,13 +73,13 @@ Not currently. The Adobe Analytics and Customer Journey Analytics UIs are the re
 
 <AccordionItem slots="heading, text"/>
 
-### Is there a size limit for upsertProject payloads?
+### Is there a size limit for `upsertProject` payloads?
 
 No limit is enforced at the MCP layer. Practical limits come from the AI client's context window and the underlying API that the MCP tool uses.
 
 <AccordionItem slots="heading, text"/>
 
-### How do the MCP servers sort components returned by findMetrics and findDimensions?
+### How do the MCP servers sort components returned by `findMetrics` and `findDimensions`?
 
 Semantic search is enabled for both tools. Results are ranked by how recently and frequently you have used a component, weighted more heavily toward your personal usage history than your organization's overall usage.
 
