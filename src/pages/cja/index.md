@@ -9,8 +9,9 @@ The Customer Journey Analytics MCP server lets LLM clients interact with your co
 
 ## Endpoint
 
-* **Beta**: `https://mcp-gateway.adobe.io/cja/mcp`
-* **Production**: `https://cja-mcp.adobe.io/mcp`
+```
+https://cja-mcp.adobe.io/mcp
+```
 
 ## Capabilities
 

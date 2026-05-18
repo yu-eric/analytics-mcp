@@ -21,10 +21,8 @@ Each request to the MCP server requires the following headers:
 
 Send these headers to the endpoint for your product:
 
-* **Customer Journey Analytics (Beta)**: `https://mcp-gateway.adobe.io/cja/mcp`
-* **Customer Journey Analytics (Production)**: `https://cja-mcp.adobe.io/mcp`
-* **Adobe Analytics (Beta)**: `https://mcp-gateway.adobe.io/aa/mcp`
-* **Adobe Analytics (Production)**: `https://aa-mcp.adobe.io/mcp`
+* **Adobe Analytics**: `https://aa-mcp.adobe.io/mcp`
+* **Customer Journey Analytics**: `https://cja-mcp.adobe.io/mcp`
 
 ## Connect to the MCP server
 

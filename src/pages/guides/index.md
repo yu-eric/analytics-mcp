@@ -16,16 +16,14 @@ Before using these MCP tools, ensure that you have the correct permissions. Have
 
 Use the following URLs when configuring your MCP client:
 
-* **Adobe Analytics (Beta)**: `https://mcp-gateway.adobe.io/aa/mcp`
-* **Adobe Analytics (Production)**: `https://aa-mcp.adobe.io/mcp`
-* **Customer Journey Analytics (Beta)**: `https://mcp-gateway.adobe.io/cja/mcp`
-* **Customer Journey Analytics (Production)**: `https://cja-mcp.adobe.io/mcp`
+* **Adobe Analytics**: `https://aa-mcp.adobe.io/mcp`
+* **Customer Journey Analytics**: `https://cja-mcp.adobe.io/mcp`
 
 ## Choose your client
 
 Each guide walks through the full setup for a specific client:
 
-<Product-Card slots="icon, heading, text, buttons" />
+<Product-Card slots="icon, heading, text, buttons" repeat="6" />
 
 ![ChatGPT icon](../assets/OpenAI-black-monoblossom.svg)
 
@@ -35,8 +33,6 @@ Connect through Settings > Apps. Requires a Plus or Pro subscription.
 
 * [Setup guide](chatgpt.md)
 
-<Product-Card slots="icon, heading, text, buttons" />
-
 ![Claude icon](../assets/Claude_AI_symbol.svg)
 
 ### Claude
@@ -44,8 +40,6 @@ Connect through Settings > Apps. Requires a Plus or Pro subscription.
 Connect through the Connectors menu in the Claude web app.
 
 * [Setup guide](claude.md)
-
-<Product-Card slots="icon, heading, text, buttons" />
 
 ![Cursor icon](../assets/CUBE_25D.svg)
 
@@ -55,15 +49,13 @@ Configure a `mcp.json` file in the Cursor IDE.
 
 * [Setup guide](cursor.md)
 
-<Product-Card slots="icon, heading, text" />
-
 ![Gemini icon](../assets/Google_Gemini_icon.svg)
 
 ### Gemini
 
 CLI-only support; guide forthcoming.
 
-<Product-Card slots="icon, heading, text" />
+* [Coming soon](#)
 
 ![Copilot icon](../assets/Microsoft_Copilot_Icon.svg)
 
@@ -71,7 +63,7 @@ CLI-only support; guide forthcoming.
 
 Not yet available. Support is planned.
 
-<Product-Card slots="icon, heading, text, buttons" />
+* [Coming soon](#)
 
 ![OAuth icon](../assets/Oauth_logo.svg)
 
@@ -80,11 +72,3 @@ Not yet available. Support is planned.
 Connect programmatically without a UI client using OAuth server-to-server credentials.
 
 * [Setup guide](oauth.md)
-
-## Switching IMS organizations
-
-If your Adobe ID belongs to multiple IMS organizations, IMS automatically logs you into the organization that you already have an active session with instead of showing the organization chooser. To switch to a different organization, follow these steps:
-
-1. Disconnect the MCP connector in your client. You do not need to remove it.
-1. Log out of your current Adobe session in your browser.
-1. Reconnect the MCP connector in your client. The login flow presents the organization chooser, allowing you to select the desired organization.
