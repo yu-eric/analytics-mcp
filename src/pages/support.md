@@ -11,13 +11,25 @@ Learn where to ask questions, report bugs, and make feature requests.
 
 <DiscoverBlock slots="image, heading, link, text" width="25%"/>
 
-![Adobe Experience Cloud](./assets/experience_cloud.svg)
+![Adobe CX Enterprise](./assets/experience_cloud.svg)
 
 ### Direct support
 
 [Email](mailto:analytics-mcps@adobe.com)
 
 Send an email to Adobe's MCP support team directly with questions, issues, or feedback about the Analytics MCP servers.
+
+<DiscoverBlock slots="link, text" width="25%"/>
+
+[Troubleshooting](support/troubleshooting.md)
+
+Solutions to common issues encountered when setting up or using the Analytics MCP servers.
+
+<DiscoverBlock slots="link, text" width="25%"/>
+
+[FAQ](support/faq.md)
+
+Answers to common questions about the Analytics MCP servers.
 
 <DiscoverBlock slots="image, heading, link, text" width="25%"/>
 

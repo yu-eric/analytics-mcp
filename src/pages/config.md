@@ -19,3 +19,6 @@
     - [Tool reference](aa/reference.md)
   - [Customer Journey Analytics](cja/index.md)
     - [Tool reference](cja/reference.md)
+  - [Support](support.md)
+    - [Troubleshooting](support/troubleshooting.md)
+    - [FAQ](support/faq.md)

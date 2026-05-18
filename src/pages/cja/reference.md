@@ -58,7 +58,7 @@ Sets the default data view ID for the current session. Once set, other tools tha
 
 ### Find Dimensions (`findDimensions`)
 
-Finds dimensions available in a given data view. Use this tool to discover which dimensions exist before running a report, or to find dimensions related to a specific topic. Supports semantic search; pass a `searchQuery` with a topic or purpose (for example, "date time", "page", "user") to get relevance-ranked results. When `searchQuery` is omitted, returns a full paginated list. Hidden dimensions are excluded by default. The returned dimension IDs can be used directly in `runReport` and `searchDimensionItems`.
+Finds dimensions available in a given data view. Use this tool to discover which dimensions exist before running a report, or to find dimensions related to a specific topic. Supports semantic search; pass a `searchQuery` with a topic or purpose (for example, "date time", "page", "user") to get relevance-ranked results. When `searchQuery` is omitted, returns a full paginated list sorted by relevancy based on your personal and organization usage history. Hidden dimensions are excluded by default. The returned dimension IDs can be used directly in `runReport` and `searchDimensionItems`.
 
 **Parameters:**
 
@@ -82,7 +82,7 @@ Finds dimensions available in a given data view. Use this tool to discover which
 
 ### Find Metrics (`findMetrics`)
 
-Finds available standard and custom metrics from the data view. Use this tool to discover which metrics exist before building a report, or to find metrics related to a specific topic (for example, "revenue", "engagement"). Does NOT include calculated metrics; use `findCalculatedMetrics` for those. Supports semantic search; pass a `searchQuery` to get relevance-ranked results. When `searchQuery` is omitted, the tool returns a full paginated list. Hidden metrics are excluded by default.
+Finds available standard and custom metrics from the data view. Use this tool to discover which metrics exist before building a report, or to find metrics related to a specific topic (for example, "revenue", "engagement"). Does NOT include calculated metrics; use `findCalculatedMetrics` for those. Supports semantic search; pass a `searchQuery` to get relevance-ranked results. When `searchQuery` is omitted, the tool returns a full paginated list sorted by relevancy based on your personal and organization usage history. Hidden metrics are excluded by default.
 
 **Parameters:**
 

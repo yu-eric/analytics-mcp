@@ -130,7 +130,7 @@ Finds report suites accessible to the user within a specific company. Returns a 
 
 ### Find Dimensions (`findDimensions`)
 
-Finds dimensions available to the user for the given report suite. Use this tool to discover which dimensions exist before running a report, or to browse available dimensions. Hidden dimensions are excluded by default. The returned dimension IDs can be used directly in `runReport` and `searchDimensionItems`.
+Finds dimensions available to the user for the given report suite. Use this tool to discover which dimensions exist before running a report, or to browse available dimensions. Hidden dimensions are excluded by default. Results are sorted by relevancy based on your personal and organization usage history. The returned dimension IDs can be used directly in `runReport` and `searchDimensionItems`.
 
 **Parameters:**
 
@@ -153,7 +153,7 @@ Finds dimensions available to the user for the given report suite. Use this tool
 
 ### Find Metrics (`findMetrics`)
 
-Finds available metrics for the given report suite. Use this tool to discover which metrics exist before building a report. Hidden metrics are excluded by default. This tool returns both standard metrics and calculated metrics in a single response.
+Finds available metrics for the given report suite. Use this tool to discover which metrics exist before building a report. Hidden metrics are excluded by default. Results are sorted by relevancy based on your personal and organization usage history. This tool returns both standard metrics and calculated metrics in a single response.
 
 * When a user asks for "metrics", return only standard metrics.
 * When a user specifically mentions "calculated metrics", return only calculated metrics.
