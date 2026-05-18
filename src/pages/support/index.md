@@ -3,7 +3,7 @@ title: Analytics MCP servers support
 description: Learn where to ask questions, report bugs, make feature requests, and spark discussions. 
 ---
 
-<HeroSimple slots="heading, text" background="rgb(37, 37, 37)"/>
+<HeroSimple slots="heading" background="white"/>
 
 # Analytics MCP servers support
 
