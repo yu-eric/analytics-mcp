@@ -15,7 +15,7 @@ Solutions to common issues encountered when setting up or using the Analytics MC
 
 ### "Authorization with the MCP server failed. You can check your credentials and permissions."
 
-![Authorization error](../assets/auth-error.png)
+![Authorization error](../assets/autherror.png)
 
 This issue can manifest itself in several ways, including:
 
