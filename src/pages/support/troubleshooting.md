@@ -3,7 +3,7 @@ title: Troubleshooting
 description: Solutions to common issues encountered when setting up or using the Analytics MCP servers.
 ---
 
-<HeroSimple slots="heading" background="white" textColor="black"/>
+<HeroSimple slots="heading,text" background="white" />
 
 # Troubleshooting
 

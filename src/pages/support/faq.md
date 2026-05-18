@@ -3,7 +3,7 @@ title: Frequently asked questions
 description: Answers to common questions about the Analytics MCP servers.
 ---
 
-<HeroSimple slots="heading" background="white" textColor="black"/>
+<HeroSimple slots="heading,text" background="white" />
 
 # Frequently asked questions
 
