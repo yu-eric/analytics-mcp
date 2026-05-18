@@ -55,6 +55,8 @@ This issue can manifest itself in several ways, including:
 
 * [Adobe Analytics IP addresses](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
 * [Adobe Analytics domains](https://experienceleague.adobe.com/en/docs/analytics/technotes/domains)
+* [Customer Journey Analytics IP addresses](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
+* [Customer Journey Analytics domains](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/domains)
 * [CX Enterprise IP addresses](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)
 * [CX Enterprise domains](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)
 
