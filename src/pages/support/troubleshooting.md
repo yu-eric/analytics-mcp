@@ -11,9 +11,11 @@ Solutions to common issues encountered when setting up or using the Analytics MC
 
 ## Authentication and permissions
 
-<AccordionItem slots="heading, text, text, text, text"/>
+<AccordionItem slots="heading, image, text, text, text, text"/>
 
 ### "Authorization with the MCP server failed. You can check your credentials and permissions."
+
+![Authorization error](../assets/auth-error.png)
 
 This issue can manifest itself in several ways, including:
 
