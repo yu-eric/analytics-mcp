@@ -93,7 +93,7 @@ Yes. The current MCP URLs automatically route each request to the nearest region
 
 ### Is my data used to train AI models?
 
-The answer to this question depends on your agreement with the LLM provider, not Adobe. For enterprise or API deployments, both Anthropic (Claude) and OpenAI (ChatGPT) state that customer data is not used to train models by default. Review your LLM provider's enterprise data terms for an authoritative answer.
+The answer to this question depends on your agreement with the LLM provider, not Adobe. Review your LLM provider's enterprise data terms for an authoritative answer.
 
 <AccordionItem slots="heading, text"/>
 
