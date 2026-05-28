@@ -1,0 +1,117 @@
+{
+  "total": 15,
+  "offset": 0,
+  "limit": 15,
+  "data": [
+    {
+      "page": "/",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/33764851?v=4",
+        "https://avatars.githubusercontent.com/u/41382203?v=4"
+      ],
+      "lastUpdated": "5/18/2026"
+    },
+    {
+      "page": "/aa/",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/33764851?v=4"
+      ],
+      "lastUpdated": "5/18/2026"
+    },
+    {
+      "page": "/aa/reference",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/33764851?v=4"
+      ],
+      "lastUpdated": "5/18/2026"
+    },
+    {
+      "page": "/cja/",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/33764851?v=4"
+      ],
+      "lastUpdated": "5/18/2026"
+    },
+    {
+      "page": "/cja/reference",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/33764851?v=4"
+      ],
+      "lastUpdated": "5/18/2026"
+    },
+    {
+      "page": "/config",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/33764851?v=4",
+        "https://avatars.githubusercontent.com/u/41382203?v=4"
+      ],
+      "lastUpdated": "5/18/2026"
+    },
+    {
+      "page": "/guides/",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/33764851?v=4",
+        "https://avatars.githubusercontent.com/u/41382203?v=4"
+      ],
+      "lastUpdated": "5/18/2026"
+    },
+    {
+      "page": "/guides/chatgpt",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/33764851?v=4"
+      ],
+      "lastUpdated": "5/18/2026"
+    },
+    {
+      "page": "/guides/claude",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/33764851?v=4"
+      ],
+      "lastUpdated": "5/18/2026"
+    },
+    {
+      "page": "/guides/cursor",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/33764851?v=4"
+      ],
+      "lastUpdated": "4/17/2026"
+    },
+    {
+      "page": "/guides/gemini",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/33764851?v=4"
+      ],
+      "lastUpdated": "4/8/2026"
+    },
+    {
+      "page": "/guides/oauth",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/33764851?v=4"
+      ],
+      "lastUpdated": "5/18/2026"
+    },
+    {
+      "page": "/support/",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/33764851?v=4",
+        "https://avatars.githubusercontent.com/u/41382203?v=4"
+      ],
+      "lastUpdated": "5/18/2026"
+    },
+    {
+      "page": "/support/faq",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/33764851?v=4"
+      ],
+      "lastUpdated": "5/26/2026"
+    },
+    {
+      "page": "/support/troubleshooting",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/33764851?v=4"
+      ],
+      "lastUpdated": "5/18/2026"
+    }
+  ],
+  ":type": "sheet"
+}
