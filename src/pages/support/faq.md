@@ -91,7 +91,7 @@ Yes. The current MCP URLs automatically route each request to the nearest region
 
 <AccordionItem slots="heading, text"/>
 
-### Is my data used to train AI models?
+### Is my data used by the LLM provider to train AI models?
 
 The answer to this question depends on your agreement with the LLM provider, not Adobe. Review your LLM provider's enterprise data terms for an authoritative answer.
 
