@@ -1,7 +1,7 @@
 {
-  "total": 15,
+  "total": 17,
   "offset": 0,
-  "limit": 15,
+  "limit": 17,
   "data": [
     {
       "page": "/",
@@ -19,6 +19,13 @@
       "lastUpdated": "5/18/2026"
     },
     {
+      "page": "/aa/changelog",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/255243852?v=4"
+      ],
+      "lastUpdated": "6/22/2026"
+    },
+    {
       "page": "/aa/reference",
       "avatars": [
         "https://avatars.githubusercontent.com/u/33764851?v=4"
@@ -33,6 +40,13 @@
       "lastUpdated": "5/18/2026"
     },
     {
+      "page": "/cja/changelog",
+      "avatars": [
+        "https://avatars.githubusercontent.com/u/255243852?v=4"
+      ],
+      "lastUpdated": "6/22/2026"
+    },
+    {
       "page": "/cja/reference",
       "avatars": [
         "https://avatars.githubusercontent.com/u/33764851?v=4"
@@ -42,10 +56,11 @@
     {
       "page": "/config",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/255243852?v=4",
         "https://avatars.githubusercontent.com/u/33764851?v=4",
         "https://avatars.githubusercontent.com/u/41382203?v=4"
       ],
-      "lastUpdated": "5/18/2026"
+      "lastUpdated": "6/22/2026"
     },
     {
       "page": "/guides/",
