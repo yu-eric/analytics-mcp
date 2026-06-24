@@ -1,0 +1,46 @@
+{
+  "repos": [
+    {
+      "name": "aa-mcp-server",
+      "label": "AA MCP Server",
+      "description": "Adobe Analytics MCP server",
+      "clone_url": "git@github.com:AdobeAnalytics/aa-mcp-server.git",
+      "branch": "main",
+      "changelogs": ["aa"]
+    },
+    {
+      "name": "cja-mcp-server",
+      "label": "CJA MCP Server",
+      "description": "Customer Journey Analytics MCP server",
+      "clone_url": "git@github.com:AdobeAnalytics/cja-mcp-server.git",
+      "branch": "main",
+      "changelogs": ["cja"]
+    },
+    {
+      "name": "analytics-mcp-starter",
+      "label": "Analytics MCP Starter",
+      "description": "Shared starter library used by both the CJA and AA MCP servers",
+      "clone_url": "git@github.com:AdobeAnalytics/analytics-mcp-starter.git",
+      "branch": "main",
+      "changelogs": ["aa", "cja"]
+    },
+    {
+      "name": "app_mcp_evaluator",
+      "label": "CJA MCP Evaluator",
+      "description": "Evaluation/testing harness for the CJA MCP server (quality and coverage work)",
+      "clone_url": "git@github.com:AdobeAnalytics/app_mcp_evaluator.git",
+      "branch": "main",
+      "changelogs": ["cja"]
+    },
+    {
+      "name": "adobe-skills",
+      "label": "Adobe Public Skills (AA/CJA MCP)",
+      "description": "Public Adobe skills monorepo; only changes related to the AA or CJA MCP skills are included",
+      "clone_url": "https://github.com/adobe/skills.git",
+      "branch": "main",
+      "changelogs": ["aa", "cja"],
+      "path_filters": ["plugins/adobe-analytics/", "plugins/adobe-cja/"],
+      "keyword_filters": ["AA MCP", "CJA MCP", "aa-mcp", "cja-mcp", "adobe-analytics", "adobe-cja"]
+    }
+  ]
+}
