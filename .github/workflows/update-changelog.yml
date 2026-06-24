@@ -27,7 +27,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "24"
 
       - name: Install Claude Code
         run: npm install -g @anthropic-ai/claude-code
@@ -41,13 +41,18 @@ jobs:
 
       - name: Generate changelog entries
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.OPUS_4_7_API_KEY }}
+          # Route Claude Code through Amazon Bedrock, authenticated with a Bedrock API key
+          # (bearer token) rather than AWS access keys.
+          CLAUDE_CODE_USE_BEDROCK: "1"
+          AWS_BEARER_TOKEN_BEDROCK: ${{ secrets.OPUS_4_7_API_KEY }}
+          # Region your Bedrock model access is provisioned in — change if not us-east-1.
+          AWS_REGION: us-east-1
           # Read token for the private AdobeAnalytics/* repos (the public adobe/skills repo
           # needs none). A PAT or GitHub App installation token with read access works.
           MCP_CHANGE_SUMMARY_TOKEN: ${{ secrets.MCP_CHANGE_SUMMARY_TOKEN }}
         run: |
           claude -p "Use the mcp-change-summary skill to update src/pages/aa/changelog.md and src/pages/cja/changelog.md. Add a new dated entry to each covering everything that shipped since the file's most recent entry. Edit the files in place only — do not commit or open a pull request. If there are no relevant changes, leave the files untouched." \
-            --model claude-opus-4-7 \
+            --model us.anthropic.claude-opus-4-7 \
             --allowedTools "Bash,Read,Edit,Write,Glob,Grep" \
             --permission-mode acceptEdits
 
